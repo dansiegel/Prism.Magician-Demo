@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:prism="http://prismlibrary.com"
+                  x:Class="MagicDemo.Views.HomePage">
+  <MasterDetailPage.Master>
+    <ContentPage Title="Menu"
+                 Padding="10,40">
+      <StackLayout>
+        <Button Text="Basics"
+              Command="{prism:NavigateTo 'navigation/tabbed?createTab=bindable&amp;createTab=reactive'}" />
+        <Button Text="Services"
+              Command="{prism:NavigateTo 'navigation/services'}" />
+      </StackLayout>
+    </ContentPage>
+  </MasterDetailPage.Master>
+</MasterDetailPage>
