@@ -55,7 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Prism.DryIoc.Forms">
-      <Version>8.0.0.1740-pre</Version>
+      <Version>8.0.0.1850-pre</Version>
     </PackageReference>
     <PackageReference Include="Shiny.Core">
       <Version>1.2.0.1755</Version>

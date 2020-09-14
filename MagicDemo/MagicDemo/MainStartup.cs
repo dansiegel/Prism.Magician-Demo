@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MagicDemo.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Shiny;
 
@@ -10,7 +8,7 @@ namespace MagicDemo
     {
         public override void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddSingleton<IAppSettings, AppSettings>();
         }
     }
 }

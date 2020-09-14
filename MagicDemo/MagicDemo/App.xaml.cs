@@ -13,12 +13,11 @@ namespace MagicDemo
     {
         public App()
         {
-            
+
         }
 
         protected override void OnInitialized()
         {
-            InitializeComponent();
             NavigationService.NavigateAsync("home/navigation/tabbed?createTab=bindable&createTab=reactive")
                 .OnNavigationError(OnNavigationError);
         }
