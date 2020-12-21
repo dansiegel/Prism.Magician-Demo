@@ -1,0 +1,8 @@
+<Project>
+  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.0.79" />
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+</Project>

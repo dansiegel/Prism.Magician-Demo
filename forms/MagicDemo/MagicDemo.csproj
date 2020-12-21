@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Humanizer.Core" />
+    <PackageReference Include="Prism.DryIoc.Forms" />
+    <PackageReference Include="Prism.Magician" />
+    <PackageReference Include="ReactiveUI" />
+    <PackageReference Include="Shiny.Core" />
+    <PackageReference Include="Xamarin.Forms" />
+    <PackageReference Include="Xamarin.Essentials" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MagicDemo.SampleModule\MagicDemo.SampleModule.csproj" />
+  </ItemGroup>
+
+</Project>
