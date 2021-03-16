@@ -6,7 +6,7 @@ namespace MagicDemo
 {
     public partial class MainStartup : ShinyStartup
     {
-        public override void ConfigureServices(IServiceCollection services)
+        public override void ConfigureServices(IServiceCollection services, IPlatform platform)
         {
             services.AddSingleton<IAppSettings, AppSettings>();
         }

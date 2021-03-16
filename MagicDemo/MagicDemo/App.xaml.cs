@@ -1,4 +1,5 @@
 ﻿using System;
+using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Magician;
 using Prism.Navigation;
@@ -20,6 +21,10 @@ namespace MagicDemo
         {
             NavigationService.NavigateAsync("home/navigation/tabbed?createTab=bindable&createTab=reactive")
                 .OnNavigationError(OnNavigationError);
+        }
+
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        {
         }
 
         private void OnNavigationError(Exception ex)
