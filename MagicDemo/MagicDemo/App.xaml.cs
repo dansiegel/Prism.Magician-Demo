@@ -1,6 +1,7 @@
 ﻿using System;
 using Prism.DryIoc;
 using Prism.Ioc;
+using Prism.Logging;
 using Prism.Magician;
 using Prism.Navigation;
 using Xamarin.Forms;
@@ -25,6 +26,7 @@ namespace MagicDemo
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterSingleton<ILogger, AggregateLogger>();
         }
 
         private void OnNavigationError(Exception ex)
