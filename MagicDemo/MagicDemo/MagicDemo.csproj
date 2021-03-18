@@ -16,23 +16,10 @@
     <PackageReference Include="Humanizer.Core" Version="2.8.26" />
     <PackageReference Include="Prism.DryIoc.Forms" Version="8.0.0.1850-pre" />
     <PackageReference Include="Prism.Magician" Version="8.0.152-beta" />
-    <PackageReference Include="Prism.Plugin.Logging.Common" Version="8.0.11-beta" />
     <PackageReference Include="ReactiveUI" Version="13.2.2" />
     <PackageReference Include="Shiny.Core" Version="2.0.0.2542-preview" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="Styles\LigthScheme.xaml.cs">
-      <DependentUpon>LigthScheme.xaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="Styles\LigthScheme.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
   </ItemGroup>
 
 </Project>
