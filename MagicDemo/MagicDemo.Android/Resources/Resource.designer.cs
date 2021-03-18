@@ -16795,4 +16795,4 @@ namespace MagicDemo.Droid
 		}
 	}
 }
-#pragma warning restore 1591 
+#pragma warning restore 1591
