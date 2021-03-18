@@ -16,6 +16,7 @@
     <PackageReference Include="Humanizer.Core" Version="2.8.26" />
     <PackageReference Include="Prism.DryIoc.Forms" Version="8.0.0.1850-pre" />
     <PackageReference Include="Prism.Magician" Version="8.0.152-beta" />
+    <PackageReference Include="Prism.Plugin.Logging.Common" Version="8.0.39-g7a04e97f64" />
     <PackageReference Include="ReactiveUI" Version="13.2.2" />
     <PackageReference Include="Shiny.Core" Version="2.0.0.2542-preview" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
