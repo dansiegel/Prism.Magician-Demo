@@ -5,14 +5,9 @@ using PrismWpfDemoModule.Views;
 
 namespace PrismWpfDemoModule
 {
-    public class PrismWpfDemoModuleModule : IModule
+    public partial class DemoModule : IModule
     {
         public void OnInitialized(IContainerProvider containerProvider)
-        {
-
-        }
-
-        public void RegisterTypes(IContainerRegistry containerRegistry)
         {
 
         }

@@ -23,7 +23,7 @@ namespace MagicDemo
 
         protected override void OnInitialized()
         {
-            NavigationService.NavigateAsync($"{NavigationKeys.HomePage}/{NavigationKeys.NavigationPage}/{NavigationKeys.TabbedPage}?createTab={NavigationKeys.ServicesPage}&createTab={NavigationKeys.ReactivePage}")
+            NavigationService.NavigateAsync($"{NavigationKeys.HomePage}/{NavigationKeys.NavigationPage}/{NavigationKeys.ReactivePage}")
                 .OnNavigationError(OnNavigationError);
         }
 

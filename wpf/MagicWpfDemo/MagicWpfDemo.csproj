@@ -7,5 +7,10 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Prism.DryIoc" />
+    <PackageReference Include="Prism.Magician" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MagicWpfDemo.Core\MagicWpfDemo.Core.csproj" />
+    <ProjectReference Include="..\PrismWpfDemoModule\PrismWpfDemoModule.csproj" />
   </ItemGroup>
 </Project>

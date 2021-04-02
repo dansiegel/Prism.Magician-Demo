@@ -8,7 +8,9 @@
                  Padding="10,40">
       <StackLayout>
         <Button Text="Basics"
-              Command="{prism:NavigateTo 'navigation/tabbed?createTab=bindable&amp;createTab=reactive'}" />
+              Command="{prism:NavigateTo 'navigation/tabbed?createTab=viewA&amp;createTab=viewB'}" />
+        <Button Text="Reactive"
+                Command="{prism:NavigateTo 'navigation/reactive'}" />
         <Button Text="Services"
               Command="{prism:NavigateTo 'navigation/services'}" />
       </StackLayout>

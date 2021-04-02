@@ -1,25 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Prism.Commands;
-using Prism.Mvvm;
+﻿using MagicWpfDemo.Core.Mvvm;
+using MagicWpfDemo.Core.Services;
+using Prism.Magician;
 
 namespace PrismWpfDemoModule.ViewModels
 {
-    public class ViewAViewModel : BindableBase
+    public class ViewAViewModel : ViewModelBase
     {
-        private string _message;
-        public string Message
-        {
-            get { return _message; }
-            set { SetProperty(ref _message, value); }
-        }
-
-        public ViewAViewModel()
+        public ViewAViewModel(BaseServices baseServices)
+            : base(baseServices)
         {
             Message = "View A from your Prism Module";
         }
+
+        [Bindable]
+        public string Message { get; set; }
     }
 }

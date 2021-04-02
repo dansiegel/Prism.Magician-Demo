@@ -1,14 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
-    <AssemblyName>PrismWpfDemoModule</AssemblyName>
   </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Prism.Wpf" />
     <PackageReference Include="Prism.Magician" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MagicWpfDemo.Core\MagicWpfDemo.Core.csproj" />
-  </ItemGroup>
+
 </Project>

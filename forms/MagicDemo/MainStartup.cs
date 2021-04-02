@@ -7,7 +7,7 @@ namespace MagicDemo
 {
     public partial class MainStartup : ShinyStartup
     {
-        public override void ConfigureServices(IServiceCollection services)
+        public override void ConfigureServices(IServiceCollection services, IPlatform platform)
         {
             services.AddSingleton<IAppSettings, AppSettings>();
         }
@@ -19,6 +19,7 @@ namespace MagicDemo
             // extensions... we can simply provide a RegisterTypes method here
             // like we would normally with Prism. This will be automatically called
             // by the Magician before we create the ServiceProvider for Shiny...
+            containerRegistry.RegisterConsoleLogger();
         }
     }
 }

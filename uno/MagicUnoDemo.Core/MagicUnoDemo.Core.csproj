@@ -8,6 +8,7 @@
   <ItemGroup>
     <PackageReference Include="Prism.Uno" />
     <PackageReference Include="Uno.UI" />
+    <PackageReference Include="Prism.Magician" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="**\*.xaml" Exclude="bin\**\*.xaml;obj\**\*.xaml" />

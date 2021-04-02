@@ -13,6 +13,7 @@
     <PackageReference Include="Shiny.Core" />
     <PackageReference Include="Xamarin.Forms" />
     <PackageReference Include="Xamarin.Essentials" />
+    <PackageReference Include="Prism.Plugin.Logging.Abstractions" />
   </ItemGroup>
 
   <ItemGroup>

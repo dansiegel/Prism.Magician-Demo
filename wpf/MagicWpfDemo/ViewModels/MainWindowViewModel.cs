@@ -1,19 +1,17 @@
-﻿using Prism.Mvvm;
+﻿using MagicWpfDemo.Core.Mvvm;
+using MagicWpfDemo.Core.Services;
+using Prism.Mvvm;
 
 namespace MagicWpfDemo.ViewModels
 {
-    public class MainWindowViewModel : BindableBase
+    public partial class MainWindowViewModel : ViewModelBase
     {
-        private string _title = "Prism Application";
-        public string Title
+        public MainWindowViewModel(BaseServices baseServices)
+            : base(baseServices)
         {
-            get { return _title; }
-            set { SetProperty(ref _title, value); }
-        }
+            Title = "Prism Application";
 
-        public MainWindowViewModel()
-        {
-
+            RegionManager.RequestNavigate("ContentRegion", "ViewA");
         }
     }
 }

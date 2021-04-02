@@ -5,7 +5,8 @@
              Title="{Binding Title}"
              x:Class="MagicDemo.Views.ServicesPage">
   <StackLayout VerticalOptions="Center"
-                 HorizontalOptions="Center">
+               HorizontalOptions="Center"
+               Padding="15">
     <Label Text="{Binding ServiceAId, StringFormat='ServiceA: {0}'}" />
     <Label Text="{Binding ServiceBId, StringFormat='ServiceB: {0}'}" />
     <Label Text="{Binding ServiceCId, StringFormat='ServiceC: {0}'}" />
