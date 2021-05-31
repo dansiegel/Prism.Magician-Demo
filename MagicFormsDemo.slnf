@@ -1,0 +1,11 @@
+{
+  "solution": {
+    "path": "MagicDemo.sln",
+    "projects": [
+      "forms\\MagicDemo.Android\\MagicDemo.Android.csproj",
+      "forms\\MagicDemo.SampleModule\\MagicDemo.SampleModule.csproj",
+      "forms\\MagicDemo.iOS\\MagicDemo.iOS.csproj",
+      "forms\\MagicDemo\\MagicDemo.csproj"
+    ]
+  }
+}

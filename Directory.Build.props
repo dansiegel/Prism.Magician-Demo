@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <EmitCompilerGeneratedFiles>True</EmitCompilerGeneratedFiles>
+  </PropertyGroup>
+</Project>

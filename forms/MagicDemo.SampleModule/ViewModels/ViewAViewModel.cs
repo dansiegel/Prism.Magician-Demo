@@ -1,16 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using MagicDemo.SampleModule.Services;
+﻿using MagicDemo.SampleModule.Services;
 using Prism.Magician;
 
 namespace MagicDemo.SampleModule.ViewModels
 {
+    [AutoInitialize]
     public partial class ViewAViewModel : ViewModelBase
     {
         public ViewAViewModel(BaseServices baseServices)
             : base(baseServices)
         {
+            Title = "View A";
         }
 
         [Bindable]

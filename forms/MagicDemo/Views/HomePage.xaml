@@ -8,7 +8,8 @@
                  Padding="10,40">
       <StackLayout>
         <Button Text="Basics"
-              Command="{prism:NavigateTo 'navigation/tabbed?createTab=viewA&amp;createTab=viewB'}" />
+                Command="{prism:NavigateTo 'navigation/tabbed?createTab=ViewA&amp;createTab=ViewB'}"
+                CommandParameter="{prism:Parameter Key='message', Value='Hello%20from%20the%20MasterDetailPage%20Master%20Page!'}"/>
         <Button Text="Reactive"
                 Command="{prism:NavigateTo 'navigation/reactive'}" />
         <Button Text="Services"

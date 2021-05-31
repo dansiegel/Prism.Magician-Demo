@@ -1,25 +1,25 @@
 <Project>
   <PropertyGroup>
-    <PrismVersion>8.1.36-pre</PrismVersion>
-    <UnoVersion>3.6.6</UnoVersion>
+    <PrismVersion>8.1.97</PrismVersion>
+    <UnoVersion>3.7.4</UnoVersion>
     <UnoBootstrapVersion>2.0.0</UnoBootstrapVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Update="Prism.Magician" Version="8.0.156-beta" />
+    <PackageReference Update="Prism.Magician" Version="8.0.165-beta" />
     <PackageReference Update="Prism.Wpf" Version="$(PrismVersion)" />
     <PackageReference Update="Prism.DryIoc" Version="$(PrismVersion)" />
     <PackageReference Update="Prism.Uno" Version="$(PrismVersion)" />
     <PackageReference Update="Prism.DryIoc.Uno" Version="$(PrismVersion)" />
     <PackageReference Update="Prism.Forms" Version="$(PrismVersion)" />
     <PackageReference Update="Prism.DryIoc.Forms" Version="$(PrismVersion)" />
-    <PackageReference Update="Prism.Plugin.Logging.Abstractions" Version="8.0.11-beta" />
+    <PackageReference Update="Prism.Plugin.Logging.Abstractions" Version="8.0.42-g496530b555" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Update="Humanizer.Core" Version="2.8.26" />
-    <PackageReference Update="ReactiveUI" Version="13.2.10" />
-    <PackageReference Update="Shiny.Core" Version="2.0.0.2579-preview" />
+    <PackageReference Update="Humanizer.Core" Version="2.10.1" />
+    <PackageReference Update="ReactiveUI" Version="13.3.2" />
+    <PackageReference Update="Shiny.Core" Version="2.0.0.2639" />
     <PackageReference Update="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Update="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
@@ -32,7 +32,7 @@
     <PackageReference Update="Uno.UI.WebAssembly" Version="$(UnoVersion)" />
     <PackageReference Update="Uno.Wasm.Bootstrap" Version="$(UnoBootstrapVersion)" />
     <PackageReference Update="Uno.Wasm.Bootstrap.DevServer" Version="$(UnoBootstrapVersion)" />
-    <PackageReference Update="Microsoft.Extensions.Logging.Console" Version="1.1.2" />
+    <PackageReference Update="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
     <PackageReference Update="Microsoft.Extensions.Logging.Filter" Version="1.1.2" />
     <PackageReference Update="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.12" />
   </ItemGroup>

@@ -6,9 +6,21 @@
              x:Class="MagicDemo.Views.ReactivePage">
   <StackLayout VerticalOptions="CenterAndExpand" 
                  HorizontalOptions="CenterAndExpand">
-    <Label Text="{Binding Title}" />
+    <Label Text="{Binding Title}"
+           HorizontalTextAlignment="Center"
+           FontSize="{DynamicResource Title}" />
+    <Label Text="{Binding Message}" />
     <Label Text="{Binding IsOnline,StringFormat='Is Online: {0}'}" />
-    <Button Text="View A" Command="{prism:NavigateTo ViewA}" />
-    <Button Text="View B" Command="{prism:NavigateTo ViewB}" />
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Toggle Foo" />
+      <Switch IsToggled="{Binding FooToggle}" />
+    </StackLayout>
+    <Label Text="{Binding IsFoo, StringFormat='Is Foo: {0}'}" />
+    <Button Text="View A"
+            Command="{prism:NavigateTo ViewA}"
+            CommandParameter="{prism:Parameter Key='message', Value='Hello from Reactive Page'}" />
+    <Button Text="View B"
+            Command="{prism:NavigateTo ViewB}"
+            CommandParameter="{prism:Parameter Key='message', Value='Hello from Reactive Page'}" />
   </StackLayout>
 </ContentPage>

@@ -7,11 +7,17 @@
   <StackLayout VerticalOptions="Center"
                HorizontalOptions="Center"
                Padding="15">
+    <Label Text="A Singleton should continue to have the same ID each time you navigate back to this page, while a transient or scoped service should have a new ID each time you navigate back to this page. You'll notice that Service C &amp; D have the same ID as CompositeService is a singleton that is resolved for both Service C &amp; D."
+           Margin="0,0,0,10"/>
     <Label Text="{Binding ServiceAId, StringFormat='ServiceA: {0}'}" />
     <Label Text="{Binding ServiceBId, StringFormat='ServiceB: {0}'}" />
     <Label Text="{Binding ServiceCId, StringFormat='ServiceC: {0}'}" />
     <Label Text="{Binding ServiceDId, StringFormat='ServiceD: {0}'}" />
-    <Button Text="View A" Command="{prism:NavigateTo ViewA}" />
-    <Button Text="View B" Command="{prism:NavigateTo ViewB}" />
+    <Button Text="View A"
+            Command="{prism:NavigateTo ViewA}"
+            CommandParameter="{prism:Parameter Key='message', Value='Hello from Services Page'}" />
+    <Button Text="View B"
+            Command="{prism:NavigateTo ViewB}"
+            CommandParameter="{prism:Parameter Key='message', Value='Hello from Services Page'}" />
   </StackLayout>
 </ContentPage>
