@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Update="Prism.Magician" Version="8.0.165-beta" />
+    <PackageReference Update="Prism.Magician" Version="8.0.166-beta" />
     <PackageReference Update="Prism.Wpf" Version="$(PrismVersion)" />
     <PackageReference Update="Prism.DryIoc" Version="$(PrismVersion)" />
     <PackageReference Update="Prism.Uno" Version="$(PrismVersion)" />
