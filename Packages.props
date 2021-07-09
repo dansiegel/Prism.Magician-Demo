@@ -6,20 +6,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Update="Prism.Magician" Version="8.0.166-beta" />
+    <PackageReference Update="Prism.Magician" Version="8.1.9" />
     <PackageReference Update="Prism.Wpf" Version="$(PrismVersion)" />
     <PackageReference Update="Prism.DryIoc" Version="$(PrismVersion)" />
     <PackageReference Update="Prism.Uno" Version="$(PrismVersion)" />
     <PackageReference Update="Prism.DryIoc.Uno" Version="$(PrismVersion)" />
     <PackageReference Update="Prism.Forms" Version="$(PrismVersion)" />
     <PackageReference Update="Prism.DryIoc.Forms" Version="$(PrismVersion)" />
-    <PackageReference Update="Prism.Plugin.Logging.Abstractions" Version="8.0.42-g496530b555" />
+    <PackageReference Update="Prism.Plugin.Logging.Abstractions" Version="8.1.16" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Update="Humanizer.Core" Version="2.10.1" />
-    <PackageReference Update="ReactiveUI" Version="13.3.2" />
-    <PackageReference Update="Shiny.Core" Version="2.0.0.2639" />
+    <PackageReference Update="Humanizer.Core" Version="2.11.10" />
+    <PackageReference Update="ReactiveUI" Version="14.1.1" />
+    <PackageReference Update="Shiny.Core" Version="2.1.0.2769" />
     <PackageReference Update="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Update="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>

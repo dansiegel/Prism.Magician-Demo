@@ -11,7 +11,7 @@
                 Command="{prism:NavigateTo 'navigation/tabbed?createTab=ViewA&amp;createTab=ViewB'}"
                 CommandParameter="{prism:Parameter Key='message', Value='Hello%20from%20the%20MasterDetailPage%20Master%20Page!'}"/>
         <Button Text="Reactive"
-                Command="{prism:NavigateTo 'navigation/reactive'}" />
+                Command="{prism:NavigateTo 'navigation/reactive?title=Menu%20Reactive'}" />
         <Button Text="Services"
               Command="{prism:NavigateTo 'navigation/services'}" />
       </StackLayout>
